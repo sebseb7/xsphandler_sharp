@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<parameters>
+
+	<domaingroup>
+		<domain name="localhost">
+			<param key="dummy" value="a"/> 
+		</domain>
+		<param key="dummyb" value="c"/>
+	</domaingroup>
+
+
+
+	<global>
+		<param key="sqlconnection" value="Server=127.0.0.1;Database=bind;User ID=postgres;Password=;Pooling=true;MinPoolSize=1;MaxPoolSize=3;"/>
+		<param key="base" value=""/>
+	</global>
+	
+	
+	
+</parameters>
